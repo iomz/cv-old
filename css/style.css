@@ -994,6 +994,9 @@
     .profile-photo {
         margin: 2em;
         height: 7em;
+        border-radius: 5px;
+        display: inline-block;
+        box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
     }
 
     #page {
@@ -1005,6 +1008,14 @@
         margin-left: 40px;
     }
 
+    div.biography {
+        margin-bottom: 1em;
+    }
+
+    div.biography > p {
+        margin-bottom: 0;
+    }
+
     div.reference {
         margin-bottom: 1em;
     }
@@ -1012,3 +1023,4 @@
     div.reference > p {
         margin-bottom: 0;
     }
+
